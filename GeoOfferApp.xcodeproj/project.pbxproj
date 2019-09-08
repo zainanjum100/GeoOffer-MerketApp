@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B0DCB35231AAD6300173701 /* ProductFilterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DCB34231AAD6300173701 /* ProductFilterData.swift */; };
+		4B8114DC22FED9FC0083053E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8114DB22FED9FC0083053E /* HomeVC.swift */; };
+		4B94553323129890009CC42C /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B94553223129890009CC42C /* ProductsVC.swift */; };
+		4BA71F80231A9E050072B173 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA71F7F231A9E050072B173 /* ProductCell.xib */; };
+		4BA71F82231A9E1C0072B173 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA71F81231A9E1C0072B173 /* ProductCell.swift */; };
+		4BCE1B492311B36900AE10C0 /* SuperMarketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE1B482311B36900AE10C0 /* SuperMarketVC.swift */; };
+		4BCE1B4B2311C26300AE10C0 /* CreditsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE1B4A2311C26300AE10C0 /* CreditsVC.swift */; };
+		4BEE7C7023107B7100E4C419 /* VCExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEE7C6F23107B7100E4C419 /* VCExts.swift */; };
+		5891EF2122FDE1E3007EF7FC /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5891EF2022FDE1E3007EF7FC /* RegisterVC.swift */; };
+		5891EF2422FDECDB007EF7FC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5891EF2322FDECDB007EF7FC /* Model.swift */; };
+		5891EF2722FDEFD4007EF7FC /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5891EF2622FDEFD4007EF7FC /* ApiServices.swift */; };
+		5891EF2922FDEFE9007EF7FC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5891EF2822FDEFE9007EF7FC /* Constant.swift */; };
+		5891EF2B22FE0596007EF7FC /* ForgotPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5891EF2A22FE0596007EF7FC /* ForgotPassVC.swift */; };
+		589277C423071ED6002D81FB /* ShoppingListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589277C323071ED6002D81FB /* ShoppingListVC.swift */; };
+		589277C623071EEA002D81FB /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589277C523071EEA002D81FB /* FavouriteVC.swift */; };
+		589277C823071F46002D81FB /* WalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589277C723071F46002D81FB /* WalletVC.swift */; };
+		589277CA23071F53002D81FB /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589277C923071F53002D81FB /* MapVC.swift */; };
+		589277CC23071F62002D81FB /* GamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589277CB23071F62002D81FB /* GamesVC.swift */; };
+		589277CE23071F79002D81FB /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589277CD23071F79002D81FB /* SupportVC.swift */; };
+		589277D023071F8B002D81FB /* FaqVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589277CF23071F8B002D81FB /* FaqVC.swift */; };
+		589277D223071F97002D81FB /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589277D123071F97002D81FB /* SettingVC.swift */; };
+		589277D423071FB2002D81FB /* PolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589277D323071FB2002D81FB /* PolicyVC.swift */; };
+		58D6156C22FEFCF800D30C99 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D6156B22FEFCF800D30C99 /* SWRevealViewController.m */; };
+		58D6156E22FEFD7100D30C99 /* Asfand.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D6156D22FEFD7100D30C99 /* Asfand.storyboard */; };
+		58D6157022FEFFA100D30C99 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6156F22FEFFA100D30C99 /* ProfileVC.swift */; };
+		58DC881222FCB7EA000FAE4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC881122FCB7EA000FAE4E /* AppDelegate.swift */; };
+		58DC881722FCB7EA000FAE4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DC881522FCB7EA000FAE4E /* Main.storyboard */; };
+		58DC881922FCB7EB000FAE4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DC881822FCB7EB000FAE4E /* Assets.xcassets */; };
+		58DC881C22FCB7EB000FAE4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DC881A22FCB7EB000FAE4E /* LaunchScreen.storyboard */; };
+		58DC882722FCB81F000FAE4E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC882622FCB81F000FAE4E /* LoginVC.swift */; };
+		58DC882B22FCBE44000FAE4E /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC882922FCBE44000FAE4E /* ImageExtension.swift */; };
+		58DC882C22FCBE44000FAE4E /* RadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC882A22FCBE44000FAE4E /* RadiusView.swift */; };
+		58E7AA4E2306C2690013E005 /* HeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E7AA4C2306C2690013E005 /* HeaderVC.swift */; };
+		58E7AA4F2306C2690013E005 /* HeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58E7AA4D2306C2690013E005 /* HeaderVC.xib */; };
+		58E7AA512306CB440013E005 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E7AA502306CB430013E005 /* NotificationVC.swift */; };
+		58E7AA542306E44C0013E005 /* ReferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E7AA532306E44C0013E005 /* ReferVC.swift */; };
+		DFF972B2475D684E92D9EE83 /* Pods_GeoOfferApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6310CE904D2F3024BB2E43 /* Pods_GeoOfferApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FDD0F177DB8B92A4BE06429 /* Pods-GeoOfferApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoOfferApp.release.xcconfig"; path = "Target Support Files/Pods-GeoOfferApp/Pods-GeoOfferApp.release.xcconfig"; sourceTree = "<group>"; };
+		4B0DCB34231AAD6300173701 /* ProductFilterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFilterData.swift; sourceTree = "<group>"; };
+		4B2DC1482321916A007C6D02 /* GeoOfferApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeoOfferApp.entitlements; sourceTree = "<group>"; };
+		4B8114DB22FED9FC0083053E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		4B94553223129890009CC42C /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		4BA71F7F231A9E050072B173 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		4BA71F81231A9E1C0072B173 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		4BCE1B482311B36900AE10C0 /* SuperMarketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMarketVC.swift; sourceTree = "<group>"; };
+		4BCE1B4A2311C26300AE10C0 /* CreditsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsVC.swift; sourceTree = "<group>"; };
+		4BEE7C6F23107B7100E4C419 /* VCExts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCExts.swift; sourceTree = "<group>"; };
+		5891EF2022FDE1E3007EF7FC /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		5891EF2322FDECDB007EF7FC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5891EF2622FDEFD4007EF7FC /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		5891EF2822FDEFE9007EF7FC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5891EF2A22FE0596007EF7FC /* ForgotPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassVC.swift; sourceTree = "<group>"; };
+		589277C323071ED6002D81FB /* ShoppingListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListVC.swift; sourceTree = "<group>"; };
+		589277C523071EEA002D81FB /* FavouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
+		589277C723071F46002D81FB /* WalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletVC.swift; sourceTree = "<group>"; };
+		589277C923071F53002D81FB /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		589277CB23071F62002D81FB /* GamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesVC.swift; sourceTree = "<group>"; };
+		589277CD23071F79002D81FB /* SupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
+		589277CF23071F8B002D81FB /* FaqVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqVC.swift; sourceTree = "<group>"; };
+		589277D123071F97002D81FB /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		589277D323071FB2002D81FB /* PolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyVC.swift; sourceTree = "<group>"; };
+		58D6156922FEFCF600D30C99 /* GeoOfferApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoOfferApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		58D6156A22FEFCF800D30C99 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		58D6156B22FEFCF800D30C99 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		58D6156D22FEFD7100D30C99 /* Asfand.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Asfand.storyboard; sourceTree = "<group>"; };
+		58D6156F22FEFFA100D30C99 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		58DC880E22FCB7EA000FAE4E /* GeoOfferApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoOfferApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DC881122FCB7EA000FAE4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58DC881622FCB7EA000FAE4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58DC881822FCB7EB000FAE4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58DC881B22FCB7EB000FAE4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58DC881D22FCB7EB000FAE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58DC882622FCB81F000FAE4E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		58DC882922FCBE44000FAE4E /* ImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		58DC882A22FCBE44000FAE4E /* RadiusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadiusView.swift; sourceTree = "<group>"; };
+		58E7AA4C2306C2690013E005 /* HeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderVC.swift; sourceTree = "<group>"; };
+		58E7AA4D2306C2690013E005 /* HeaderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderVC.xib; sourceTree = "<group>"; };
+		58E7AA502306CB430013E005 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		58E7AA532306E44C0013E005 /* ReferVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferVC.swift; sourceTree = "<group>"; };
+		CD6310CE904D2F3024BB2E43 /* Pods_GeoOfferApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoOfferApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3600B67EF579D84F8303EA9 /* Pods-GeoOfferApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoOfferApp.debug.xcconfig"; path = "Target Support Files/Pods-GeoOfferApp/Pods-GeoOfferApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58DC880B22FCB7EA000FAE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF972B2475D684E92D9EE83 /* Pods_GeoOfferApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B0DCB33231AAD3600173701 /* ProductsVC */ = {
+			isa = PBXGroup;
+			children = (
+				4B94553223129890009CC42C /* ProductsVC.swift */,
+				4B0DCB34231AAD6300173701 /* ProductFilterData.swift */,
+			);
+			path = ProductsVC;
+			sourceTree = "<group>";
+		};
+		4BA71F7E231A9DE40072B173 /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				4BA71F7F231A9E050072B173 /* ProductCell.xib */,
+				4BA71F81231A9E1C0072B173 /* ProductCell.swift */,
+			);
+			path = ProductCell;
+			sourceTree = "<group>";
+		};
+		5891EF2222FDE915007EF7FC /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				5891EF2822FDEFE9007EF7FC /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		5891EF2522FDEFBE007EF7FC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5891EF2622FDEFD4007EF7FC /* ApiServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		58D6156822FEFCCC00D30C99 /* SwRevel */ = {
+			isa = PBXGroup;
+			children = (
+				58D6156A22FEFCF800D30C99 /* SWRevealViewController.h */,
+				58D6156B22FEFCF800D30C99 /* SWRevealViewController.m */,
+				58D6156922FEFCF600D30C99 /* GeoOfferApp-Bridging-Header.h */,
+			);
+			path = SwRevel;
+			sourceTree = "<group>";
+		};
+		58DC880522FCB7EA000FAE4E = {
+			isa = PBXGroup;
+			children = (
+				58DC881022FCB7EA000FAE4E /* GeoOfferApp */,
+				58DC880F22FCB7EA000FAE4E /* Products */,
+				BC36ABFE3AB68436FB58F2B0 /* Pods */,
+				A60612AD2ED103E67C73EE8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58DC880F22FCB7EA000FAE4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58DC880E22FCB7EA000FAE4E /* GeoOfferApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58DC881022FCB7EA000FAE4E /* GeoOfferApp */ = {
+			isa = PBXGroup;
+			children = (
+				4B2DC1482321916A007C6D02 /* GeoOfferApp.entitlements */,
+				4BA71F7E231A9DE40072B173 /* ProductCell */,
+				58E7AA4B2306C1470013E005 /* Header */,
+				58D6156822FEFCCC00D30C99 /* SwRevel */,
+				5891EF2522FDEFBE007EF7FC /* Services */,
+				5891EF2222FDE915007EF7FC /* Constant */,
+				58DC882822FCBE12000FAE4E /* Extensions */,
+				58DC882522FCB80B000FAE4E /* View */,
+				58DC882422FCB804000FAE4E /* Model */,
+				58DC882322FCB7FA000FAE4E /* Controller */,
+				58DC881122FCB7EA000FAE4E /* AppDelegate.swift */,
+				58DC881522FCB7EA000FAE4E /* Main.storyboard */,
+				58D6156D22FEFD7100D30C99 /* Asfand.storyboard */,
+				58DC881822FCB7EB000FAE4E /* Assets.xcassets */,
+				58DC881A22FCB7EB000FAE4E /* LaunchScreen.storyboard */,
+				58DC881D22FCB7EB000FAE4E /* Info.plist */,
+			);
+			path = GeoOfferApp;
+			sourceTree = "<group>";
+		};
+		58DC882322FCB7FA000FAE4E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B0DCB33231AAD3600173701 /* ProductsVC */,
+				58DC882622FCB81F000FAE4E /* LoginVC.swift */,
+				58D6156F22FEFFA100D30C99 /* ProfileVC.swift */,
+				5891EF2022FDE1E3007EF7FC /* RegisterVC.swift */,
+				5891EF2A22FE0596007EF7FC /* ForgotPassVC.swift */,
+				4B8114DB22FED9FC0083053E /* HomeVC.swift */,
+				58E7AA502306CB430013E005 /* NotificationVC.swift */,
+				58E7AA532306E44C0013E005 /* ReferVC.swift */,
+				589277C323071ED6002D81FB /* ShoppingListVC.swift */,
+				589277C523071EEA002D81FB /* FavouriteVC.swift */,
+				589277C723071F46002D81FB /* WalletVC.swift */,
+				589277C923071F53002D81FB /* MapVC.swift */,
+				589277CB23071F62002D81FB /* GamesVC.swift */,
+				589277CD23071F79002D81FB /* SupportVC.swift */,
+				589277CF23071F8B002D81FB /* FaqVC.swift */,
+				589277D123071F97002D81FB /* SettingVC.swift */,
+				589277D323071FB2002D81FB /* PolicyVC.swift */,
+				4BCE1B482311B36900AE10C0 /* SuperMarketVC.swift */,
+				4BCE1B4A2311C26300AE10C0 /* CreditsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		58DC882422FCB804000FAE4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5891EF2322FDECDB007EF7FC /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58DC882522FCB80B000FAE4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58DC882822FCBE12000FAE4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				58DC882922FCBE44000FAE4E /* ImageExtension.swift */,
+				58DC882A22FCBE44000FAE4E /* RadiusView.swift */,
+				4BEE7C6F23107B7100E4C419 /* VCExts.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		58E7AA4B2306C1470013E005 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				58E7AA4C2306C2690013E005 /* HeaderVC.swift */,
+				58E7AA4D2306C2690013E005 /* HeaderVC.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		A60612AD2ED103E67C73EE8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6310CE904D2F3024BB2E43 /* Pods_GeoOfferApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC36ABFE3AB68436FB58F2B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3600B67EF579D84F8303EA9 /* Pods-GeoOfferApp.debug.xcconfig */,
+				0FDD0F177DB8B92A4BE06429 /* Pods-GeoOfferApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58DC880D22FCB7EA000FAE4E /* GeoOfferApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DC882022FCB7EB000FAE4E /* Build configuration list for PBXNativeTarget "GeoOfferApp" */;
+			buildPhases = (
+				3E482735AEB1C65D1C72092E /* [CP] Check Pods Manifest.lock */,
+				58DC880A22FCB7EA000FAE4E /* Sources */,
+				58DC880B22FCB7EA000FAE4E /* Frameworks */,
+				58DC880C22FCB7EA000FAE4E /* Resources */,
+				AF65E24678F506A92A2DDD32 /* [CP] Embed Pods Frameworks */,
+				3FDA0E9D72F45E88E77F028A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoOfferApp;
+			productName = GeoOfferApp;
+			productReference = 58DC880E22FCB7EA000FAE4E /* GeoOfferApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58DC880622FCB7EA000FAE4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AsfandHafeez;
+				TargetAttributes = {
+					58DC880D22FCB7EA000FAE4E = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 58DC880922FCB7EA000FAE4E /* Build configuration list for PBXProject "GeoOfferApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58DC880522FCB7EA000FAE4E;
+			productRefGroup = 58DC880F22FCB7EA000FAE4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58DC880D22FCB7EA000FAE4E /* GeoOfferApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58DC880C22FCB7EA000FAE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DC881C22FCB7EB000FAE4E /* LaunchScreen.storyboard in Resources */,
+				58D6156E22FEFD7100D30C99 /* Asfand.storyboard in Resources */,
+				58DC881922FCB7EB000FAE4E /* Assets.xcassets in Resources */,
+				4BA71F80231A9E050072B173 /* ProductCell.xib in Resources */,
+				58E7AA4F2306C2690013E005 /* HeaderVC.xib in Resources */,
+				58DC881722FCB7EA000FAE4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E482735AEB1C65D1C72092E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoOfferApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FDA0E9D72F45E88E77F028A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoOfferApp/Pods-GeoOfferApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoOfferApp/Pods-GeoOfferApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoOfferApp/Pods-GeoOfferApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF65E24678F506A92A2DDD32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoOfferApp/Pods-GeoOfferApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoOfferApp/Pods-GeoOfferApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoOfferApp/Pods-GeoOfferApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58DC880A22FCB7EA000FAE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D6157022FEFFA100D30C99 /* ProfileVC.swift in Sources */,
+				589277C823071F46002D81FB /* WalletVC.swift in Sources */,
+				589277D423071FB2002D81FB /* PolicyVC.swift in Sources */,
+				58DC882722FCB81F000FAE4E /* LoginVC.swift in Sources */,
+				4B94553323129890009CC42C /* ProductsVC.swift in Sources */,
+				4B8114DC22FED9FC0083053E /* HomeVC.swift in Sources */,
+				58E7AA542306E44C0013E005 /* ReferVC.swift in Sources */,
+				4BCE1B4B2311C26300AE10C0 /* CreditsVC.swift in Sources */,
+				5891EF2722FDEFD4007EF7FC /* ApiServices.swift in Sources */,
+				58DC882B22FCBE44000FAE4E /* ImageExtension.swift in Sources */,
+				4BEE7C7023107B7100E4C419 /* VCExts.swift in Sources */,
+				58E7AA4E2306C2690013E005 /* HeaderVC.swift in Sources */,
+				5891EF2922FDEFE9007EF7FC /* Constant.swift in Sources */,
+				58DC882C22FCBE44000FAE4E /* RadiusView.swift in Sources */,
+				5891EF2422FDECDB007EF7FC /* Model.swift in Sources */,
+				589277CA23071F53002D81FB /* MapVC.swift in Sources */,
+				5891EF2B22FE0596007EF7FC /* ForgotPassVC.swift in Sources */,
+				4BA71F82231A9E1C0072B173 /* ProductCell.swift in Sources */,
+				58D6156C22FEFCF800D30C99 /* SWRevealViewController.m in Sources */,
+				589277CC23071F62002D81FB /* GamesVC.swift in Sources */,
+				589277C423071ED6002D81FB /* ShoppingListVC.swift in Sources */,
+				589277D223071F97002D81FB /* SettingVC.swift in Sources */,
+				58DC881222FCB7EA000FAE4E /* AppDelegate.swift in Sources */,
+				4B0DCB35231AAD6300173701 /* ProductFilterData.swift in Sources */,
+				589277D023071F8B002D81FB /* FaqVC.swift in Sources */,
+				5891EF2122FDE1E3007EF7FC /* RegisterVC.swift in Sources */,
+				589277C623071EEA002D81FB /* FavouriteVC.swift in Sources */,
+				58E7AA512306CB440013E005 /* NotificationVC.swift in Sources */,
+				4BCE1B492311B36900AE10C0 /* SuperMarketVC.swift in Sources */,
+				589277CE23071F79002D81FB /* SupportVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58DC881522FCB7EA000FAE4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58DC881622FCB7EA000FAE4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58DC881A22FCB7EB000FAE4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58DC881B22FCB7EB000FAE4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58DC881E22FCB7EB000FAE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58DC881F22FCB7EB000FAE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58DC882122FCB7EB000FAE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3600B67EF579D84F8303EA9 /* Pods-GeoOfferApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GeoOfferApp/GeoOfferApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUD6T34MG4;
+				INFOPLIST_FILE = GeoOfferApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeoOfferApp.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoOfferApp/SwRevel/GeoOfferApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58DC882222FCB7EB000FAE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDD0F177DB8B92A4BE06429 /* Pods-GeoOfferApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GeoOfferApp/GeoOfferApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUD6T34MG4;
+				INFOPLIST_FILE = GeoOfferApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeoOfferApp.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoOfferApp/SwRevel/GeoOfferApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58DC880922FCB7EA000FAE4E /* Build configuration list for PBXProject "GeoOfferApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DC881E22FCB7EB000FAE4E /* Debug */,
+				58DC881F22FCB7EB000FAE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DC882022FCB7EB000FAE4E /* Build configuration list for PBXNativeTarget "GeoOfferApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DC882122FCB7EB000FAE4E /* Debug */,
+				58DC882222FCB7EB000FAE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58DC880622FCB7EA000FAE4E /* Project object */;
+}
